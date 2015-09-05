@@ -1,0 +1,109 @@
+.header {
+  padding: 15px 20px;
+  background-color: #f8f8f8;
+}
+.header li {
+  display: inline;
+  padding: .5em;
+}
+.header a {
+  color: black;
+  font-size: 13px;
+  font-weight: bold;
+  text-decoration: none;
+  font-style: 'Helvetica', sans-serif;
+}
+.header img {
+  position: relative;
+}
+.main {
+  margin-top: 1em;
+}
+.row img {
+  margin-bottom: 0;
+}
+.number {
+  float: left;
+  color: rgb(202, 202, 202);
+  font-size: 20px;
+  display: block;
+}
+.footer .author {
+  display: block;
+  margin-bottom: 1em;
+  margin-right: 5px;
+  font-style: 'Helvetica', sans-serif;
+  font-weight: bold;
+  text-align: right;
+}
+.footer .author span {
+  color: rgb(119, 119, 119);
+  font-size: 18px
+}
+.footer .author a {
+  color: rgb(51, 51, 51);
+  font-size: 18px;
+  text-decoration: none;
+}
+.arrow {
+  width: 0;
+  height 0;
+  border-style: solid;
+  border-width: 10px 10px 0 10px;
+  border-color: #c9c9c9 transparent transparent transparent;
+  position: relative;
+  left: 28.5em;
+  margin-bottom: 5px;
+}
+.footer {
+  width: 30.5em;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: rgb(202, 202, 202);
+  margin-bottom: 2em;
+}
+.page-footer {
+  display: block;
+  position: absolute;
+  padding-right: 10px;
+  padding-left: 10px;
+  bottom: 0;
+  font-style: 'helvetica', sans-serif;
+}
+
+.footer-inner {
+  display: block;
+  border-top-color: rgb(221, 221, 221);
+border-top-style: solid;
+border-top-width: 1px;
+padding-top: 15px;
+padding-bottom: 20px;
+}
+
+.footer-cell {
+  display: table-cell;
+  vertical-align: middle;
+}
+.logo {
+  align-self: center;
+}
+
+.links {
+  padding: 0;
+}
+
+.links li {
+  display: inline;
+  padding: 1em;
+
+}
+
+.links ul {
+  display: inline;
+
+}
+
+.copy span {
+  display: inline;
+  font-size: 12px
+}
